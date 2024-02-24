@@ -1,0 +1,393 @@
+body {
+    background-color: #1f1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 131, 67);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    margin-bottom: 90px;
+    /* Adiciona espaço abaixo do menu */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    color: #4b4a49;
+}
+
+.center-text {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    color: rgb(243, 131, 67);
+    /* Adiciona cor branca ao texto */
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo do h2 */
+}
+
+
+.center-text_2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(243, 131, 67);
+    /* Adiciona cor branca ao texto */
+    margin-bottom: 40px;
+    /* Adiciona espaço abaixo do h2 */
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo do div.center-container */
+}
+
+.content-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.centered-paragraph {
+
+    width: 800px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+}
+
+
+.ebook-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    /* Define a largura máxima para os contêineres de ebook */
+    margin: 0 auto;
+    /* Centraliza o contêiner na horizontal */
+}
+
+.ebook {
+    width: 380px;
+    margin: 0 20px 40px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    /* Centraliza todo o conteúdo dentro do contêiner */
+}
+
+.ebook img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+}
+
+.ebook h2,
+.ebook p {
+    margin: 10px 0;
+    /* Adiciona margem em cima e em baixo para separar os elementos */
+}
+
+
+.ebook h2 {
+    font-size: 22px;
+    /* Adiciona margem em cima e em baixo para separar os elementos */
+}
+
+.ebook button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px; /* Reduzido o padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/*
+.ebook button:hover {
+    background-color: #45a049;
+}
+*/
+
+#verOferta {
+    margin-left: 10px;
+}
+
+
+@keyframes blink {
+    0% {
+        background-color: rgb(243, 131, 67);
+    }
+
+    50% {
+        background-color: #45a049;
+    }
+
+    100% {
+        background-color: rgb(243, 131, 67);
+    }
+}
+
+#verOferta {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: blink 0.5s infinite alternate;
+    /* Faz a animação de piscar */
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.conteudo {
+    width: 600px;
+    /* Aumente o tamanho do quadro conforme necessário */
+    margin: 0 20px 40px;
+    padding: 5px;
+    /*background-color: #c0bfbf;*/
+    border-radius: 0px;
+    text-align: left;
+    color: white;
+}
+
+
+.conteudo_ {
+    width: auto;
+    margin: 0 auto; /* Define as margens automáticas para centralizar horizontalmente */
+    padding: 5px;
+    border-radius: 0px;
+    background-color: #1f1d1d;
+    text-align: center;
+}
+
+
+
+
+.conteudo_ h2,
+.conteudo_ p {
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(214, 213, 213);
+    /* Adiciona cor branca ao texto */
+}
+
+.conteudo_ h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.conteudo_ p.valor_avista {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #45a049;
+    /* Cor verde */
+}
+
+.conteudo_ p.vencimento {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(253, 65, 65);
+    /* Cor vermelha */
+    font-weight: bold;
+}
+
+
+
+.conteudo_ button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 220px;
+    /* Largura do botão */
+    height: 60px;
+    /* Altura do botão */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+.slideshow-container {
+    max-width: 870px;
+    /* Define a largura máxima do container */
+    margin: 0 auto;
+    /* Centraliza o container na horizontal */
+    background-color: white;
+    /* Cor de fundo para visualização */
+    padding: 10px;
+    /* Espaçamento interno do container */
+    border-radius: 10px;
+
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    /* Centraliza na horizontal */
+}
+
+.container img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto;
+    /* Permite que a altura da imagem seja ajustada automaticamente */
+    margin-bottom: 10px;
+    /* Adiciona uma margem inferior para separar a imagem do texto */
+}
+
+
+
+
+
+.selos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 20px auto 0; /* Adiciona uma margem superior de 50px e centraliza na horizontal */
+}
+
+.selos {
+    width: 500px;
+    margin: 0 20px 40px;
+    padding: 5px;
+    background-color: #c0bfbf;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.countdown-block {
+    width: 75px;
+    height: 50px; /* Ajuste a altura conforme necessário para caber o texto */
+    background-color: rgb(243, 131, 67);
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.countdown-block span {
+    font-size: 18px;
+    color: white;
+    line-height: 50px; /* Ajuste para que o texto seja centralizado verticalmente */
+    text-align: center;
+    display: block;
+}
+
+
+
+
+footer {
+    background-color: #444654;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 300px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+.social-icon.whatsapp:hover {
+    color: #25D366;
+    font-size: 25px;
+}
+
+.social-icon.instagram:hover {
+    color: #E1306C;
+    font-size: 25px;
+}
+
+.social-icon.facebook:hover {
+    color: #1877F2;
+    font-size: 25px;
+}
+
+
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#piscar {
+    animation: piscar 0.7s infinite; /* A animação "piscar" dura 1 segundo e repete infinitamente */
+}
